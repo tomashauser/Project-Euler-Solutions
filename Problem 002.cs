@@ -33,7 +33,7 @@ namespace Problem_002
                 a = b;
                 b = c; 
             }
-            Console.Write(Sum);
+            Console.WriteLine(Sum);
             Console.ReadKey();
             // Output: 4613732
         }
