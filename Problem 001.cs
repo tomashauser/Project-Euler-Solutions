@@ -22,6 +22,7 @@ namespace ConsoleApp1
             }
             Console.WriteLine(Sum);
             Console.ReadKey();
+            // Output: 233168
         }
     }
 }
