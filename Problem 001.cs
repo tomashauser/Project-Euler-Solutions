@@ -16,7 +16,7 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
             int Sum = 0;
-            for (int i = 1; i < 1000; i++) // Chceck first 1000 numbers.
+            for (int i = 1; i < 1000; i++) // Chceck first 1000 numbers starting with 1.
             {
                 if (i % 3 == 0 || i % 5 == 0) Sum += i; // If the current number is divisible either by '3' or '5' add it to 'Sum'.
             }
