@@ -17,7 +17,6 @@ namespace Problem_003_b_
         static int Nth_Prime(int n, int Upper_Bound)
         {
             List<int> Primes_Arr = new List<int>();
-            Primes_Arr.Add(1);
             Primes_Arr.Add(2);
             int i = 3;
             while (Primes_Arr.Count <= n)
@@ -33,7 +32,7 @@ namespace Problem_003_b_
                 Primes_Arr.Add(i);
                 i += 2;
             }
-            return Primes_Arr[n];
+            return Primes_Arr[n - 1];
         }
         static void Main(string[] args)
         {
