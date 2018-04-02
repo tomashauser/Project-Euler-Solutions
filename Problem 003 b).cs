@@ -56,7 +56,7 @@ namespace Problem_003_b_
             while (Number > 1) // Repeat until the 'Number' (which will be divided below) reaches '1'.
             {
                 Prime = Nth_Prime(n, Upper_Bound); // Set computing of 'n-th' prime to variable 'Prime', so the program doesn't have to compute it twice,
-                                                  // because it is used also in assigning 'Nth_Prime(n, Upper_Bound)' to 'Prime_Factor'.
+                                                   // because it is used also in assigning 'Nth_Prime(n, Upper_Bound)' to 'Prime_Factor'.
                 if (Number % Prime == 0) // If the 'Number' is divisible by 'n-th' prime, divide it by 'n-th' prime and assign a 'Prime_Factor'.
                 {
                     Prime_Factor = Prime;
