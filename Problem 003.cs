@@ -79,6 +79,7 @@ namespace Problem003
             }
             Console.WriteLine(Prime_Factor);
             Console.ReadKey();
+            // Output: 6857
         }
     }
 }
