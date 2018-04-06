@@ -28,7 +28,8 @@ namespace Problem_7
         }
         static void Main(string[] args)
         {
-                Console.WriteLine(Nth_Prime(10001));
+            Console.WriteLine(Nth_Prime(10001));
+            Console.ReadKey();
             // Output: 104743
         }
     }
