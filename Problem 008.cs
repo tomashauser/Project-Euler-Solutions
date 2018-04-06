@@ -62,6 +62,7 @@ namespace Problem_008
             }
             Console.WriteLine(Highest_Factor);
             Console.ReadKey();
+            // Output: 23514624000
         }
     }
 }
