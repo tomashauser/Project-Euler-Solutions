@@ -26,6 +26,7 @@ namespace Problem_005
                     }                 
                 }
             Console.WriteLine(Number);
+            Console.ReadKey();
             // Output: 232792560
         }
     }
