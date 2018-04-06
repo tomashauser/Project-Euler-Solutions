@@ -9,7 +9,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PROBLEM_003
+namespace Problem_003
 {
     class Program
     {
