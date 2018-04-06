@@ -28,6 +28,7 @@ namespace Problem_006
                 Square_Of_Sum += i;
             }
             Console.WriteLine(Square_Of_Sum * Square_Of_Sum - Sum_Of_Squares);
+            Console.ReadKey();
             // Output: 25164150
         }
     }
