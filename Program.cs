@@ -29,7 +29,7 @@ namespace Problem_009
                     for (double b = 3; b < 1000; b++) // a < b < c
                     {
                         c = Math.Sqrt(a * a + b * b);
-                        if (c == (int)c && a + b + c == Parameter) // If 'c' is and integer and a + b + c equals to 1000.
+                        if (c == (int)c && a + b + c == Parameter) // If 'c' is an integer and a + b + c equals to 1000.
                         {
                             Console.WriteLine(a + "*" + b + "*" + c + "=" + a * b * c);
                             return;
