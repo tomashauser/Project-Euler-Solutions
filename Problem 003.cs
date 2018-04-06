@@ -15,7 +15,7 @@ namespace Problem_003
     {
         static bool IsPrime(double Number)
         {
-            for (int i = 2; i <= Math.Ceiling(Math.Sqrt(Number)); ++i)
+            for (int i = 3; i <= Math.Ceiling(Math.Sqrt(Number)); i += 2)
             {
                 if (Number % i == 0) return false;
             }
