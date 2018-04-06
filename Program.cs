@@ -31,7 +31,7 @@ namespace Problem_009
                         c = Math.Sqrt(a * a + b * b);
                         if (c == (int)c && a + b + c == Parameter) // If 'c' is an integer and a + b + c equals to 1000.
                         {
-                            Console.WriteLine(a + "*" + b + "*" + c + "=" + a * b * c);
+                            Console.WriteLine(a * b * c);
                             return;
                         }
                     }
@@ -39,6 +39,7 @@ namespace Problem_009
             }
             Compute();
             Console.ReadKey();
+            // Output: 31875000
         }
     }
 }
