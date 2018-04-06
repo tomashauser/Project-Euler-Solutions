@@ -61,6 +61,7 @@ namespace Problem_008
                 Factor = 1; // It's important to get factor back to 1 because it has been multiplied.
             }
             Console.WriteLine(Highest_Factor);
+            Console.ReadKey();
         }
     }
 }
