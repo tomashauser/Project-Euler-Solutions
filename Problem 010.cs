@@ -25,7 +25,7 @@ namespace Problem_010
         static void Main(string[] args)
         {
             double Sum;
-            Sum = 2; // Since 2 is the only even prime we add it to sum and operate only with odd numbers.
+            Sum = 2; // Since 2 is the only even prime we add it to the 'Sum' and operate only with odd numbers.
             for (double i = 3; i <= 2000000; i += 2)
             {
                 if (IsPrime(i))
